@@ -17,6 +17,7 @@ class Robot(pygame.sprite.Sprite):
         self.listaRobot = [ pygame.image.load("{}/{}.png".format(self.ruta,i)) for i in range(1,9)]
         #self.listaRobotCajas = [ pygame.image.load("{}/{}C.png".format(self.ruta,i)) for i in range(1,9)]
         self.tieneCaja = False
+
         self.velociadad = velocidad
         self.orientacion = "sur"
         self.ancho = ancho
